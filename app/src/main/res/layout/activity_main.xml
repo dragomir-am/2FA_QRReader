@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="com.example.a2fa_qrreader.MainActivity">
+
+    <TextView
+        android:id="@+id/textMessage"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|top|center_vertical|fill_vertical"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="casual"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonScan"
+        android:layout_width="114dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:text="SCAN" />
+
+    <EditText
+        android:visibility="invisible"
+        android:id="@+id/passwordMessage"
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/buttonValidate"
+        android:layout_width="122dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Confirm"
+        android:visibility="invisible" />
+
+</LinearLayout>
