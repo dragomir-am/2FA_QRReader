@@ -115,12 +115,10 @@ class MainActivity : AppCompatActivity() {
         pass_result_string = decode_result_string.dropLast(pin_result_string.length)
 
         if (passwordInput.text.toString() == pass_result_string) {
-            println("QR:" + pass_result_string)
-            println("User: " + passwordInput.text.toString())
+
             return pin_result_string
         } else {
-            println("QR:" + pass_result_string)
-            println("User: " + passwordInput.text.toString())
+
             return ""
         }
 
